@@ -90,3 +90,7 @@ body {
   cursor: pointer;
   background-color: rgb(50, 75, 50);
 }
+
+#pbtm .lose h1 {
+  color: #000;
+}

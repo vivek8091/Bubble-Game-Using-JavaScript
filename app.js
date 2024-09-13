@@ -1,5 +1,6 @@
 let timer = 30;
 let score = 0;
+let none = true;
 
 // Make Bubbles...
 function makeBubble() {
@@ -20,7 +21,6 @@ function runTimer() {
         } else {
             clearInterval(timerInt);
             document.querySelector("#pbtm").innerHTML = `<h1>Game Over<br>Score Is :- ${scoreVal.textContent}</h1>`;
-
         }
     }, 1000);
 }
